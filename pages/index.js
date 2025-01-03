@@ -3,7 +3,7 @@ import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import toast, { Toaster } from 'react-hot-toast';
-import '@/styles/global.css';
+
 
 export default function Home() {
   const [name, setName] = useState('');
